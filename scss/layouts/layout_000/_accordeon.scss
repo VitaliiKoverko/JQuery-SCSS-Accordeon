@@ -1,0 +1,64 @@
+.container {
+    width: 383px;
+    margin: auto;
+}
+
+.box-accordeon__title {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-items: center;
+    padding-top: 15px;
+    padding-left: 25px;
+
+}
+
+.box__img {
+    width: 64px;
+}
+
+.box__title {
+    padding-right: 90px;
+    padding-bottom: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+
+}
+
+.box__p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.264px;
+    line-height: 26px;
+}
+
+.box__content {
+    padding: 15px;
+    box-shadow: inset 0px 0px 5.1px rgba(0, 0, 0, 0.25);
+}
+
+.box__item_location {
+    background: $colorLocation;
+    color: $colorBooks;
+}
+
+.box__item_music {
+    background: $colorMusic;
+    color: $colorNotes;
+}
+
+.box__item_notes {
+    background: $colorNotes;
+    color: $colorLocation;
+}
+
+.box__item_books {
+    background: $colorBooks;
+    color: $colorMusic;
+}
+
+.box__item_tendances {
+    background: $colorTendances;
+    color: $colorBooks;
+}
